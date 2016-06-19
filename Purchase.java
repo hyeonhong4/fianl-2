@@ -12,23 +12,16 @@ public class Purchase{
       System.out.print("");
       int temple_choice = temple.nextInt();
       if(temple_choice==2){
+        x.money=x.money-70;
         x.Small.add(Purchase_Name);
         break;
       }
       else if(temple_choice==1){
+        x.money=x.money-30;
         x.Big.add(Purchase_Name);
         break;}
       else{
       continue;}
     }
-  }
-  
-  
-  
+  } 
 }
-
-
-
-
-
-
